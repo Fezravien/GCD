@@ -13,6 +13,7 @@
 		BAACF0952508BE0B00789D35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAACF0932508BE0B00789D35 /* Main.storyboard */; };
 		BAACF0972508BE0D00789D35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAACF0962508BE0D00789D35 /* Assets.xcassets */; };
 		BAACF09A2508BE0D00789D35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAACF0982508BE0D00789D35 /* LaunchScreen.storyboard */; };
+		BAACF0A42508CD0A00789D35 /* Photos.plist in Resources */ = {isa = PBXBuildFile; fileRef = BAACF0A32508CD0A00789D35 /* Photos.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BAACF0962508BE0D00789D35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAACF0992508BE0D00789D35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BAACF09B2508BE0D00789D35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAACF0A32508CD0A00789D35 /* Photos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Photos.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				BAACF0962508BE0D00789D35 /* Assets.xcassets */,
 				BAACF0982508BE0D00789D35 /* LaunchScreen.storyboard */,
 				BAACF09B2508BE0D00789D35 /* Info.plist */,
+				BAACF0A32508CD0A00789D35 /* Photos.plist */,
 			);
 			path = GCD_false;
 			sourceTree = "<group>";
@@ -128,6 +131,7 @@
 				BAACF09A2508BE0D00789D35 /* LaunchScreen.storyboard in Resources */,
 				BAACF0972508BE0D00789D35 /* Assets.xcassets in Resources */,
 				BAACF0952508BE0B00789D35 /* Main.storyboard in Resources */,
+				BAACF0A42508CD0A00789D35 /* Photos.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,13 +289,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = WU6N2C8A3Z;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = GCD_false/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "pazravien.GCD-false";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pazravien.GCD-false";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -303,13 +307,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = WU6N2C8A3Z;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = GCD_false/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "pazravien.GCD-false";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pazravien.GCD-false";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
