@@ -15,7 +15,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         // Photos.plist에서 뽑아내서, urls에 저장하기
-        // Target Membership설정
         guard let url = Bundle.main.url(forResource: "Photos", withExtension: "plist"),
             let contents = try? Data(contentsOf: url),
             let serial = try? PropertyListSerialization.propertyList(from: contents, format: nil),
@@ -25,7 +24,6 @@ class ViewController: UIViewController {
         urls = serialUrls.compactMap { URL(string: $0) }
         
     }
-
 
 }
 
@@ -60,7 +58,7 @@ extension ViewController: UICollectionViewDelegateFlowLayout{
             
     //      Frame = 슈퍼뷰(상위뷰)의 좌표계에서 위치와 크기를 나타낸다.
     //      Bounds = 자기자신의 좌표계에서 위치와 크기를 나타낸다.
-            let width = (collectionView.bounds.width - (margin * 2) - (itemSpacing * 2)) / 3
+            let width = (collectionView.frame.width - (margin * 2) - (itemSpacing * 2)) / 3
             let height = width * 10/7
             
             return CGSize(width: width, height: height)
